@@ -4,7 +4,7 @@ Simple Foundry VTT module which adds status icons for the ICON RPG by Massif Pre
 Icon graphics are a combination of the work of Archer on PilotNET (the LANCER Discord server) and https://game-icons.net/.
 
 ## Installation
-Manifest URL: https://github.com/Eranziel/icon-status-icons/raw/main/module.json
+Manifest URL: [https://github.com/Eranziel/icon-status-icons/raw/main/module.json](https://github.com/Eranziel/icon-status-icons/releases/latest/download/system.json)
 
 Copy the manifest into the matching box in the Foundry module installation dialog, and Foundry will take care of the rest!
 
