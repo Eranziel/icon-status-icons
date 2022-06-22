@@ -1,7 +1,7 @@
 # icon-status-icons
 Simple Foundry VTT module which adds status icons for the ICON RPG by Massif Press. While they are targeted towards ICON, the module is not system restricted so can be used with any.
 
-Icon graphics are the work of Archer on PilotNET, the LANCER Discord server.
+Icon graphics are a combination of the work of Archer on PilotNET (the LANCER Discord server) and https://game-icons.net/.
 
 ## Installation
 Manifest URL: https://github.com/Eranziel/icon-status-icons/raw/main/module.json
