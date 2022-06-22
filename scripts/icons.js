@@ -95,11 +95,6 @@ export const archerIcons = [
     icon: "modules/icon-status-icons/icons/archer/Dazed.png",
   },
   {
-    id: "defeated",
-    label: "Defeated",
-    icon: "modules/icon-status-icons/icons/archer/Defeated.png",
-  },
-  {
     id: "hatred",
     label: "Hatred",
     icon: "modules/icon-status-icons/icons/archer/Hatred.png",
@@ -189,5 +184,11 @@ export const archerIcons = [
     id: "vigilance",
     label: "Vigilance",
     icon: "modules/icon-status-icons/icons/archer/Vigilance.png",
+  },
+    // Misc
+  {
+    id: "defeated",
+    label: "Defeated",
+    icon: "modules/icon-status-icons/icons/archer/Defeated.png",
   },
 ];
