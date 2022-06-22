@@ -1,5 +1,37 @@
 
 export const archerIcons = [
+    // Generic markers
+  {
+    id: "star_blue",
+    label: "Blue Marker",
+    icon: "modules/icon-status-icons/icons/archer/Star_Blue.png",
+  },
+  {
+    id: "star_green",
+    label: "Green Marker",
+    icon: "modules/icon-status-icons/icons/archer/Star_Green.png",
+  },
+  {
+    id: "star_purple",
+    label: "Purple Marker",
+    icon: "modules/icon-status-icons/icons/archer/Star_Purple.png",
+  },
+  {
+    id: "star_red",
+    label: "Red Marker",
+    icon: "modules/icon-status-icons/icons/archer/Star_Red.png",
+  },
+  {
+    id: "star_white",
+    label: "White Marker",
+    icon: "modules/icon-status-icons/icons/archer/Star_White.png",
+  },
+  {
+    id: "star_yellow",
+    label: "Yellow Marker",
+    icon: "modules/icon-status-icons/icons/archer/Star_Yellow.png",
+  },
+    // Class markers
   {
     id: "aether",
     label: "Aether",
@@ -10,6 +42,17 @@ export const archerIcons = [
     label: "Blessing",
     icon: "modules/icon-status-icons/icons/archer/Blessing.png",
   },
+  {
+    id: "mantra",
+    label: "Mantra",
+    icon: "modules/icon-status-icons/icons/archer/Mantra.png",
+  },
+  {
+    id: "mantra_green",
+    label: "Mantra",
+    icon: "modules/icon-status-icons/icons/archer/Mantra_Green.png",
+  },
+    // Blights
   {
     id: "blight_all",
     label: "All Blights",
@@ -35,6 +78,7 @@ export const archerIcons = [
     label: "Poisoned",
     icon: "modules/icon-status-icons/icons/archer/Blight_Poisoned.png",
   },
+    // Statuses
   {
     id: "blinded",
     label: "Blinded",
@@ -46,11 +90,6 @@ export const archerIcons = [
     icon: "modules/icon-status-icons/icons/archer/Branded.png",
   },
   {
-    id: "counter",
-    label: "Counter",
-    icon: "modules/icon-status-icons/icons/archer/Counter.png",
-  },
-  {
     id: "dazed",
     label: "Dazed",
     icon: "modules/icon-status-icons/icons/archer/Dazed.png",
@@ -59,6 +98,47 @@ export const archerIcons = [
     id: "defeated",
     label: "Defeated",
     icon: "modules/icon-status-icons/icons/archer/Defeated.png",
+  },
+  {
+    id: "hatred",
+    label: "Hatred",
+    icon: "modules/icon-status-icons/icons/archer/Hatred.png",
+  },
+  {
+    id: "pacified",
+    label: "Pacified",
+    icon: "modules/icon-status-icons/icons/archer/Pacified.png",
+  },
+  {
+    id: "shattered",
+    label: "Shattered",
+    icon: "modules/icon-status-icons/icons/archer/Shattered.png",
+  },
+  {
+    id: "slowed",
+    label: "Slowed",
+    icon: "modules/icon-status-icons/icons/archer/Slowed.png",
+  },
+  {
+    id: "stunned",
+    label: "Stunned",
+    icon: "modules/icon-status-icons/icons/archer/Stunned.png",
+  },
+  {
+    id: "vulnerable",
+    label: "Vulnerable",
+    icon: "modules/icon-status-icons/icons/archer/Vulnerable.png",
+  },
+  {
+    id: "winded",
+    label: "Winded",
+    icon: "modules/icon-status-icons/icons/archer/Winded.png",
+  },
+    // Positive Effects
+  {
+    id: "counter",
+    label: "Counter",
+    icon: "modules/icon-status-icons/icons/archer/Counter.png",
   },
   {
     id: "defiance",
@@ -76,29 +156,9 @@ export const archerIcons = [
     icon: "modules/icon-status-icons/icons/archer/Flying.png",
   },
   {
-    id: "hatred",
-    label: "Hatred",
-    icon: "modules/icon-status-icons/icons/archer/Hatred.png",
-  },
-  {
     id: "intangible",
     label: "Intangible",
     icon: "modules/icon-status-icons/icons/archer/Intangible.png",
-  },
-  {
-    id: "mantra",
-    label: "Mantra",
-    icon: "modules/icon-status-icons/icons/archer/Mantra.png",
-  },
-  {
-    id: "mantra_green",
-    label: "Mantra",
-    icon: "modules/icon-status-icons/icons/archer/Mantra_Green.png",
-  },
-  {
-    id: "pacified",
-    label: "Pacified",
-    icon: "modules/icon-status-icons/icons/archer/Pacified.png",
   },
   {
     id: "regeneration",
@@ -111,54 +171,9 @@ export const archerIcons = [
     icon: "modules/icon-status-icons/icons/archer/Resistance.png",
   },
   {
-    id: "shattered",
-    label: "Shattered",
-    icon: "modules/icon-status-icons/icons/archer/Shattered.png",
-  },
-  {
-    id: "slowed",
-    label: "Slowed",
-    icon: "modules/icon-status-icons/icons/archer/Slowed.png",
-  },
-  {
-    id: "star_blue",
-    label: "Blue Star",
-    icon: "modules/icon-status-icons/icons/archer/Star_Blue.png",
-  },
-  {
-    id: "star_green",
-    label: "Green Star",
-    icon: "modules/icon-status-icons/icons/archer/Star_Green.png",
-  },
-  {
-    id: "star_purple",
-    label: "Purple Star",
-    icon: "modules/icon-status-icons/icons/archer/Star_Purple.png",
-  },
-  {
-    id: "star_red",
-    label: "Red Star",
-    icon: "modules/icon-status-icons/icons/archer/Star_Red.png",
-  },
-  {
-    id: "star_white",
-    label: "White Star",
-    icon: "modules/icon-status-icons/icons/archer/Star_White.png",
-  },
-  {
-    id: "star_yellow",
-    label: "Yellow Star",
-    icon: "modules/icon-status-icons/icons/archer/Star_Yellow.png",
-  },
-  {
     id: "stealth",
     label: "Stealth",
     icon: "modules/icon-status-icons/icons/archer/Stealth.png",
-  },
-  {
-    id: "stunned",
-    label: "Stunned",
-    icon: "modules/icon-status-icons/icons/archer/Stunned.png",
   },
   {
     id: "sturdy",
@@ -174,15 +189,5 @@ export const archerIcons = [
     id: "vigilance",
     label: "Vigilance",
     icon: "modules/icon-status-icons/icons/archer/Vigilance.png",
-  },
-  {
-    id: "vulnerable",
-    label: "Vulnerable",
-    icon: "modules/icon-status-icons/icons/archer/Vulnerable.png",
-  },
-  {
-    id: "winded",
-    label: "Winded",
-    icon: "modules/icon-status-icons/icons/archer/Winded.png",
   },
 ];
