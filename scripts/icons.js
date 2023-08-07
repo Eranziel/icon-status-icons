@@ -39,10 +39,11 @@ export const ICON_GENERIC_TAGS = [
     id: "blue_tag",
     name: "Blue Tag",
     icon: "modules/icon-status-icons/icons/archer/blue_tag.png",
-  }
+  },
 ];
-  // Statuses
-export const resources = [{
+// Statuses
+export const ICON_RESOURCES = [
+  {
     id: "vigilance",
     name: "Vigilance",
     icon: "modules/icon-status-icons/icons/archer/vigilance.png",
@@ -57,7 +58,7 @@ export const resources = [{
     name: "Blessings",
     icon: "modules/icon-status-icons/icons/archer/blessing.png",
   },
-]
+];
 
 export const ICON_POWER_DIES = [
   {
@@ -68,13 +69,13 @@ export const ICON_POWER_DIES = [
   {
     id: "generic_dice_1",
     name: "Power Die 1",
-    icon: "icons/svg/d6-grey.svg"
+    icon: "icons/svg/d6-grey.svg",
   },
   {
     id: "generic_dice_2",
     name: "Power Die 2",
-    icon: "icons/svg/d6-grey.svg"
-  }
+    icon: "icons/svg/d6-grey.svg",
+  },
 ];
 
 export const ICON_STATUSES = [
@@ -187,7 +188,7 @@ export const ICON_STATUSES = [
     id: "flying",
     name: "Flying",
     icon: "modules/icon-status-icons/icons/archer/flying.png",
-  }
+  },
 ];
 export const ICON_CLASS_STATUSES = [
   {
@@ -269,5 +270,5 @@ export const ICON_CLASS_STATUSES = [
     id: "stormbender_effect",
     name: "Stormbender Effect",
     icon: "modules/icon-status-icons/icons/archer/stormbender_effect.png",
-  }
+  },
 ];
