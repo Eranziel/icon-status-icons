@@ -2,9 +2,9 @@
   "name": "icon-status-icons",
   "title": "ICON Status Icons",
   "description": "Adds token status icons by Archer. Icons are also available on <a href=\"https://drive.google.com/drive/folders/1DByhq6_XkSQ1DaAp2UjEwTuJgErOzUdP\">Google Drive</a>.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "9",
+  "compatibleCoreVersion": "11",
   "authors": [
     {
       "name": "Eranziel",
@@ -14,7 +14,7 @@
     {
       "name": "Archer",
       "email": "",
-      "url": "https://drive.google.com/drive/folders/1DByhq6_XkSQ1DaAp2UjEwTuJgErOzUdP?usp=sharing"
+      "url": "https://drive.google.com/drive/folders/1VMXo0-ABCleAAnHSRMcNqeaVUqY4i-fu"
     }
   ],
   "esmodules": ["icon-status-icons.js"],
