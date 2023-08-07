@@ -4,7 +4,7 @@ import { archerIcons, ICON_CLASS_STATUSES, ICON_GENERIC_TAGS, ICON_STATUSES } fr
 /* ------------------------------------ */
 /* Initialize system				          	*/
 /* ------------------------------------ */
-Hooks.once('setup', async function() {
+Hooks.once('setup', function() {
   console.log("Initializing ICON Status Icons module");
   registerSettings();
   setupIcons();
