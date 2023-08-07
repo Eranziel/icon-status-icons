@@ -1,42 +1,42 @@
 export const ICON_GENERIC_TAGS = [
   // Generic markers
   {
-    id: "white tag",
+    id: "white_tag",
     name: "White Tag",
     icon: "modules/icon-status-icons/icons/archer/white_tag.png",
   },
   {
-    id: "black tag",
+    id: "black_tag",
     name: "Black Tag",
     icon: "modules/icon-status-icons/icons/archer/black_tag.png",
   },
   {
-    id: "purple tag",
+    id: "purple_tag",
     name: "Purple Tag",
     icon: "modules/icon-status-icons/icons/archer/purple_tag.png",
   },
   {
-    id: "red tag",
+    id: "red_tag",
     name: "Red Tag",
     icon: "modules/icon-status-icons/icons/archer/red_tag.png",
   },
   {
-    id: "orange tag",
+    id: "orange_tag",
     name: "Orange Tag",
     icon: "modules/icon-status-icons/icons/archer/orange_tag.png",
   },
   {
-    id: "yellow tag",
+    id: "yellow_tag",
     name: "Yellow Tag",
     icon: "modules/icon-status-icons/icons/archer/yellow_tag.png",
   },
   {
-    id: "green tag",
+    id: "green_tag",
     name: "Green Tag",
     icon: "modules/icon-status-icons/icons/archer/green_tag.png",
   },
   {
-    id: "blue tag",
+    id: "blue_tag",
     name: "Blue Tag",
     icon: "modules/icon-status-icons/icons/archer/blue_tag.png",
   }
