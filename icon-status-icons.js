@@ -1,5 +1,5 @@
 import { registerSettings } from "./scripts/settings.js"
-import { archerIcons } from "./scripts/icons.js";
+import { archerIcons, ICON_CLASS_STATUSES, ICON_GENERIC_TAGS, ICON_STATUSES } from "./scripts/icons.js";
 
 /* ------------------------------------ */
 /* Initialize system				          	*/
@@ -12,9 +12,14 @@ Hooks.once('setup', async function() {
 
 function setupIcons() {
   const keepStock = game.settings.get("icon-status-icons", "keepStockIcons");
+  const classIcons = game.settings.get("icon-status-icons", "addClassIcons");
+  const genericIcons = game.settings.get("icon-status-icons", "addGenericColorIcons");
 
   let statuses = [];
-  if (keepStock)    statuses = statuses.concat(CONFIG.statusEffects);
+  if (keepStock) statuses = statuses.concat(CONFIG.statusEffects);
+  if (genericIcons) statuses = statuses.concat(ICON_GENERIC_TAGS);
+  statuses.concat(ICON_STATUSES);
+  if (classIcons) statuses = statuses.concat(ICON_CLASS_STATUSES);
   statuses = statuses.concat(archerIcons);
 
   /**

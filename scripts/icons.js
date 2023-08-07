@@ -1,194 +1,273 @@
-
-export const archerIcons = [
-    // Generic markers
+export const ICON_GENERIC_TAGS = [
+  // Generic markers
   {
-    id: "star_blue",
-    label: "Blue Marker",
-    icon: "modules/icon-status-icons/icons/archer/Star_Blue.png",
+    id: "white tag",
+    name: "White Tag",
+    icon: "modules/icon-status-icons/icons/archer/white_tag.png",
   },
   {
-    id: "star_green",
-    label: "Green Marker",
-    icon: "modules/icon-status-icons/icons/archer/Star_Green.png",
+    id: "black tag",
+    name: "Black Tag",
+    icon: "modules/icon-status-icons/icons/archer/black_tag.png",
   },
   {
-    id: "star_purple",
-    label: "Purple Marker",
-    icon: "modules/icon-status-icons/icons/archer/Star_Purple.png",
+    id: "purple tag",
+    name: "Purple Tag",
+    icon: "modules/icon-status-icons/icons/archer/purple_tag.png",
   },
   {
-    id: "star_red",
-    label: "Red Marker",
-    icon: "modules/icon-status-icons/icons/archer/Star_Red.png",
+    id: "red tag",
+    name: "Red Tag",
+    icon: "modules/icon-status-icons/icons/archer/red_tag.png",
   },
   {
-    id: "star_white",
-    label: "White Marker",
-    icon: "modules/icon-status-icons/icons/archer/Star_White.png",
+    id: "orange tag",
+    name: "Orange Tag",
+    icon: "modules/icon-status-icons/icons/archer/orange_tag.png",
   },
   {
-    id: "star_yellow",
-    label: "Yellow Marker",
-    icon: "modules/icon-status-icons/icons/archer/Star_Yellow.png",
+    id: "yellow tag",
+    name: "Yellow Tag",
+    icon: "modules/icon-status-icons/icons/archer/yellow_tag.png",
   },
-    // Class markers
+  {
+    id: "green tag",
+    name: "Green Tag",
+    icon: "modules/icon-status-icons/icons/archer/green_tag.png",
+  },
+  {
+    id: "blue tag",
+    name: "Blue Tag",
+    icon: "modules/icon-status-icons/icons/archer/blue_tag.png",
+  }
+];
+  // Statuses
+export const resources = [{
+    id: "vigilance",
+    name: "Vigilance",
+    icon: "modules/icon-status-icons/icons/archer/vigilance.png",
+  },
   {
     id: "aether",
-    label: "Aether",
-    icon: "modules/icon-status-icons/icons/archer/Aether.png",
+    name: "Aether",
+    icon: "modules/icon-status-icons/icons/archer/aether.png",
   },
   {
-    id: "blessing",
-    label: "Blessing",
-    icon: "modules/icon-status-icons/icons/archer/Blessing.png",
+    id: "blessings",
+    name: "Blessings",
+    icon: "modules/icon-status-icons/icons/archer/blessing.png",
   },
+]
+
+export const ICON_POWER_DIES = [
   {
     id: "mantra",
-    label: "Mantra",
-    icon: "modules/icon-status-icons/icons/archer/Mantra.png",
+    name: "Mantra",
+    icon: "modules/icon-status-icons/icons/archer/mantra.png",
   },
   {
-    id: "mantra_green",
-    label: "Mantra",
-    icon: "modules/icon-status-icons/icons/archer/Mantra_Green.png",
-  },
-    // Blights
-  {
-    id: "blight_all",
-    label: "All Blights",
-    icon: "modules/icon-status-icons/icons/archer/Blight_All.png",
+    id: "generic_dice_1",
+    name: "Power Die 1",
+    icon: "icons/svg/d6-grey.svg"
   },
   {
-    id: "blight_burning",
-    label: "Burning",
-    icon: "modules/icon-status-icons/icons/archer/Blight_Burning.png",
+    id: "generic_dice_2",
+    name: "Power Die 2",
+    icon: "icons/svg/d6-grey.svg"
+  }
+];
+
+export const ICON_STATUSES = [
+  {
+    id: "stunned",
+    name: "Stunned",
+    icon: "modules/icon-status-icons/icons/archer/stunned.png",
   },
   {
-    id: "blight_electrified",
-    label: "Electrified",
-    icon: "modules/icon-status-icons/icons/archer/Blight_Electrified.png",
+    id: "weakened",
+    name: "Weakened",
+    icon: "modules/icon-status-icons/icons/archer/weakened.png",
   },
   {
-    id: "blight_frostbite",
-    label: "Frostbite",
-    icon: "modules/icon-status-icons/icons/archer/Blight_Frostbite.png",
-  },
-  {
-    id: "blight_poisoned",
-    label: "Poisoned",
-    icon: "modules/icon-status-icons/icons/archer/Blight_Poisoned.png",
-  },
-    // Statuses
-  {
-    id: "blinded",
-    label: "Blinded",
-    icon: "modules/icon-status-icons/icons/archer/Blinded.png",
-  },
-  {
-    id: "branded",
-    label: "Branded",
-    icon: "modules/icon-status-icons/icons/archer/Branded.png",
-  },
-  {
-    id: "dazed",
-    label: "Dazed",
-    icon: "modules/icon-status-icons/icons/archer/Dazed.png",
+    id: "slashed",
+    name: "Slashed",
+    icon: "modules/icon-status-icons/icons/archer/slashed.png",
   },
   {
     id: "hatred",
-    label: "Hatred",
-    icon: "modules/icon-status-icons/icons/archer/Hatred.png",
+    name: "Hatred",
+    icon: "modules/icon-status-icons/icons/archer/hatred.png",
+  },
+  {
+    id: "blind",
+    name: "Blind",
+    icon: "modules/icon-status-icons/icons/archer/blinded.png",
+  },
+  {
+    id: "dazed",
+    name: "Dazed",
+    icon: "modules/icon-status-icons/icons/archer/old_dazed.png",
+  },
+  {
+    id: "sealed",
+    name: "Sealed",
+    icon: "modules/icon-status-icons/icons/archer/sealed.png",
   },
   {
     id: "pacified",
-    label: "Pacified",
-    icon: "modules/icon-status-icons/icons/archer/Pacified.png",
-  },
-  {
-    id: "shattered",
-    label: "Shattered",
-    icon: "modules/icon-status-icons/icons/archer/Shattered.png",
-  },
-  {
-    id: "slowed",
-    label: "Slowed",
-    icon: "modules/icon-status-icons/icons/archer/Slowed.png",
-  },
-  {
-    id: "stunned",
-    label: "Stunned",
-    icon: "modules/icon-status-icons/icons/archer/Stunned.png",
+    name: "Pacified",
+    icon: "modules/icon-status-icons/icons/archer/pacified.png",
   },
   {
     id: "vulnerable",
-    label: "Vulnerable",
-    icon: "modules/icon-status-icons/icons/archer/Vulnerable.png",
+    name: "Vulnerable",
+    icon: "modules/icon-status-icons/icons/archer/vulnerable.png",
   },
   {
-    id: "winded",
-    label: "Winded",
-    icon: "modules/icon-status-icons/icons/archer/Winded.png",
-  },
-    // Positive Effects
-  {
-    id: "counter",
-    label: "Counter",
-    icon: "modules/icon-status-icons/icons/archer/Counter.png",
+    id: "shattered",
+    name: "Shattered",
+    icon: "modules/icon-status-icons/icons/archer/shattered.png",
   },
   {
-    id: "defiance",
-    label: "Defiance",
-    icon: "modules/icon-status-icons/icons/archer/Defiance.png",
+    id: "immobile",
+    name: "Immobile",
+    icon: "modules/icon-status-icons/icons/archer/immobile.png",
   },
   {
-    id: "evasion",
-    label: "Evasion",
-    icon: "modules/icon-status-icons/icons/archer/Evasion.png",
-  },
-  {
-    id: "flying",
-    label: "Flying",
-    icon: "modules/icon-status-icons/icons/archer/Flying.png",
-  },
-  {
-    id: "intangible",
-    label: "Intangible",
-    icon: "modules/icon-status-icons/icons/archer/Intangible.png",
+    id: "delaying",
+    name: "Delaying",
+    icon: "modules/icon-status-icons/icons/archer/delaying.png",
   },
   {
     id: "regeneration",
-    label: "Regeneration",
-    icon: "modules/icon-status-icons/icons/archer/Regeneration.png",
+    name: "Regeneration",
+    icon: "modules/icon-status-icons/icons/archer/regeneration.png",
+  },
+  {
+    id: "intangible",
+    name: "Intangible",
+    icon: "modules/icon-status-icons/icons/archer/intangible.png",
+  },
+  {
+    id: "evasion",
+    name: "Evasion",
+    icon: "modules/icon-status-icons/icons/archer/evasion.png",
+  },
+  {
+    id: "defiance",
+    name: "Defiance",
+    icon: "modules/icon-status-icons/icons/archer/defiance.png",
+  },
+  {
+    id: "counter",
+    name: "Counter",
+    icon: "modules/icon-status-icons/icons/archer/counter.png",
   },
   {
     id: "resistance",
-    label: "Resistance",
-    icon: "modules/icon-status-icons/icons/archer/Resistance.png",
+    name: "Resistance",
+    icon: "modules/icon-status-icons/icons/archer/resistance.png",
   },
   {
     id: "stealth",
-    label: "Stealth",
-    icon: "modules/icon-status-icons/icons/archer/Stealth.png",
+    name: "Stealth",
+    icon: "modules/icon-status-icons/icons/archer/stealth.png",
   },
   {
     id: "sturdy",
-    label: "Sturdy",
-    icon: "modules/icon-status-icons/icons/archer/Sturdy.png",
+    name: "Sturdy",
+    icon: "modules/icon-status-icons/icons/archer/sturdy.png",
   },
   {
     id: "unstoppable",
-    label: "Unstoppable",
-    icon: "modules/icon-status-icons/icons/archer/Unstoppable.png",
+    name: "Unstoppable",
+    icon: "modules/icon-status-icons/icons/archer/unstoppable.png",
   },
   {
-    id: "vigilance",
-    label: "Vigilance",
-    icon: "modules/icon-status-icons/icons/archer/Vigilance.png",
-  },
-    // Misc
+    id: "flying",
+    name: "Flying",
+    icon: "modules/icon-status-icons/icons/archer/flying.png",
+  }
+];
+export const ICON_CLASS_STATUSES = [
   {
-    id: "defeated",
-    label: "Defeated",
-    icon: "modules/icon-status-icons/icons/archer/Defeated.png",
+    id: "bastion_effect",
+    name: "Bastion Effect",
+    icon: "modules/icon-status-icons/icons/archer/bastion_effect.png",
   },
+  {
+    id: "demon_slayer_effect",
+    name: "Bastion Effect",
+    icon: "modules/icon-status-icons/icons/archer/demom_slayer_effect.png",
+  },
+  {
+    id: "colossus_effect",
+    name: "Colossus Effect",
+    icon: "modules/icon-status-icons/icons/archer/colossus_effect.png",
+  },
+  {
+    id: "knave_effect",
+    name: "Knave Effect",
+    icon: "modules/icon-status-icons/icons/archer/knave_effect.png",
+  },
+  {
+    id: "fool_effect",
+    name: "Fool Effect",
+    icon: "modules/icon-status-icons/icons/archer/fool_effect.png",
+  },
+  {
+    id: "freelancer_effect",
+    name: "Freelancer Effect",
+    icon: "modules/icon-status-icons/icons/archer/freelancer_effect.png",
+  },
+  {
+    id: "shade_effect",
+    name: "Shade Effect",
+    icon: "modules/icon-status-icons/icons/archer/shade_effect.png",
+  },
+  {
+    id: "warden_effect",
+    name: "Warden Effect",
+    icon: "modules/icon-status-icons/icons/archer/warden_effect.png",
+  },
+  {
+    id: "chanter_effect",
+    name: "Chanter Effect",
+    icon: "modules/icon-status-icons/icons/archer/chanter_effect.png",
+  },
+  {
+    id: "harvester_effect",
+    name: "Harvester Effect",
+    icon: "modules/icon-status-icons/icons/archer/harvester_effect.png",
+  },
+  {
+    id: "sealer_effect",
+    name: "Sealer Effect",
+    icon: "modules/icon-status-icons/icons/archer/sealer_effect.png",
+  },
+  {
+    id: "seer_effect",
+    name: "Seer Effect",
+    icon: "modules/icon-status-icons/icons/archer/seer_effect.png",
+  },
+  {
+    id: "enochian_effect",
+    name: "Enochian Effect",
+    icon: "modules/icon-status-icons/icons/archer/enochian_effect.png",
+  },
+  {
+    id: "geomancer_effect",
+    name: "Geomancer Effect",
+    icon: "modules/icon-status-icons/icons/archer/geomancer_effect.png",
+  },
+  {
+    id: "spellblade_effect",
+    name: "Spellblade Effect",
+    icon: "modules/icon-status-icons/icons/archer/spellblade_effect.png",
+  },
+  {
+    id: "stormbender_effect",
+    name: "Stormbender Effect",
+    icon: "modules/icon-status-icons/icons/archer/stormbender_effect.png",
+  }
 ];

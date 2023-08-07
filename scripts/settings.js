@@ -12,4 +12,24 @@ export const registerSettings = function() {
     default: false
   });
 
+  game.settings.register("icon-status-icons", "addGenericColorIcons", {
+    name: "Add Generic Color Statuses",
+    hint: "Add a variety of generic color tag statuses",
+    scope: "world",
+    type: Boolean,
+    config: true,
+    default: false
+  });
+
+
+  game.settings.register("icon-status-icons", "addClassIcons", {
+    name: "Add Class Statuses",
+    hint: "Add a special status icon for each class",
+    scope: "world",
+    type: Boolean,
+    config: true,
+    default: false
+  });
+
+
 }
