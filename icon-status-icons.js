@@ -18,8 +18,8 @@ function setupIcons() {
   let statuses = [];
   if (keepStock) statuses = statuses.concat(CONFIG.statusEffects);
   if (genericIcons) statuses = statuses.concat(ICON_GENERIC_TAGS);
-  statuses.concat(ICON_STATUSES);
-  statuses.concat(ICON_RESOURCES);
+  statuses = statuses.concat(ICON_STATUSES);
+  statuses = statuses.concat(ICON_RESOURCES);
   if (classIcons) statuses = statuses.concat(ICON_CLASS_STATUSES);
 
   /**
