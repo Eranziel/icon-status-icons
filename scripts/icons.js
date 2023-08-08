@@ -58,23 +58,10 @@ export const ICON_RESOURCES = [
     name: "Blessings",
     icon: "modules/icon-status-icons/icons/archer/blessing.png",
   },
-];
-
-export const ICON_POWER_DIES = [
   {
     id: "mantra",
     name: "Mantra",
     icon: "modules/icon-status-icons/icons/archer/mantra.png",
-  },
-  {
-    id: "generic_dice_1",
-    name: "Power Die 1",
-    icon: "icons/svg/d6-grey.svg",
-  },
-  {
-    id: "generic_dice_2",
-    name: "Power Die 2",
-    icon: "icons/svg/d6-grey.svg",
   },
 ];
 
@@ -198,8 +185,8 @@ export const ICON_CLASS_STATUSES = [
   },
   {
     id: "demon_slayer_effect",
-    name: "Bastion Effect",
-    icon: "modules/icon-status-icons/icons/archer/demom_slayer_effect.png",
+    name: "Demon Slayer Effect",
+    icon: "modules/icon-status-icons/icons/archer/demon_slayer_effect.png",
   },
   {
     id: "colossus_effect",
