@@ -107,7 +107,7 @@ export const ICON_STATUSES = [
   {
     id: "dazed",
     name: "Dazed",
-    icon: "modules/icon-status-icons/icons/archer/old_dazed.png",
+    icon: "modules/icon-status-icons/icons/archer/dazed.png",
   },
   {
     id: "sealed",
@@ -132,7 +132,7 @@ export const ICON_STATUSES = [
   {
     id: "immobile",
     name: "Immobile",
-    icon: "modules/icon-status-icons/icons/archer/immobile.png",
+    icon: "modules/icon-status-icons/icons/archer/immobilized.png",
   },
   {
     id: "delaying",
