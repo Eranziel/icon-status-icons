@@ -1,10 +1,13 @@
 import { ICON_CLASS_STATUSES, ICON_GENERIC_TAGS, ICON_RESOURCES, ICON_STATUSES } from "./scripts/icons.js";
 
+const stockIcons = [];
+
 /* ------------------------------------ */
 /* Initialize system				          	*/
 /* ------------------------------------ */
 Hooks.once('setup', function() {
   console.log("Initializing ICON Status Icons module");
+  stockIcons.push(...CONFIG.statusEffects);
   registerSettings();
   setupIcons();
 });
@@ -15,7 +18,7 @@ function setupIcons() {
   const genericIcons = game.settings.get("icon-status-icons", "addGenericColorIcons");
 
   let statuses = [];
-  if (keepStock) statuses = statuses.concat(CONFIG.statusEffects);
+  if (keepStock) statuses = statuses.concat(stockIcons);
   if (genericIcons) statuses = statuses.concat(ICON_GENERIC_TAGS);
   statuses = statuses.concat(ICON_STATUSES);
   statuses = statuses.concat(ICON_RESOURCES);
